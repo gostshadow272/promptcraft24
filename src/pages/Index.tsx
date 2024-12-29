@@ -25,10 +25,17 @@ Key requirements:
 
 Additional guidelines:
 ${data.promptType === "blog" ? `
-- Include an engaging introduction
-- Break down complex topics into digestible sections
-- Add relevant subheadings
-- Conclude with actionable takeaways` : ""}
+- Start with an SEO-optimized title using the main keyword
+- Include H2 and H3 headings with relevant keywords
+- Write an engaging introduction with emotional hooks
+- Add 5-7 relevant internal links to other blog posts
+- Include product recommendations with affiliate links where appropriate
+- Use emojis strategically throughout the content
+- Add a recipe card with ingredients and instructions (if applicable)
+- Include high-quality images with alt text
+- End with a strong call-to-action
+- Add nutritional information and recipe notes
+- Optimize meta description and URL structure` : ""}
 ${data.promptType === "coding" ? `
 - Include code examples where relevant
 - Explain the logic behind the solution
@@ -45,7 +52,20 @@ ${data.promptType === "creative" ? `
 - Develop unique perspectives
 - Maintain consistent narrative voice` : ""}
 
-Please ensure the output is comprehensive, engaging, and tailored to the specific needs of this request.`;
+Content Structure:
+1. SEO Title (include main keyword)
+2. Meta Description (150-160 characters)
+3. Introduction (with emotional hook)
+4. Main Content Sections (H2 headings)
+5. Subsections (H3 headings)
+6. Product Recommendations
+7. Recipe Card (if applicable)
+8. Nutritional Information
+9. Expert Tips
+10. FAQ Section
+11. Conclusion with CTA
+
+Please ensure the output is comprehensive, engaging, and tailored to the specific needs of this request. Remember to naturally incorporate keywords and maintain readability throughout the content.`;
 
       setGeneratedPrompt(prompt);
       setIsLoading(false);
