@@ -5,6 +5,7 @@ import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
+import AboutMe from "@/components/AboutMe";
 import { Helmet } from "react-helmet";
 
 const Index = () => {
@@ -124,6 +125,7 @@ Please ensure the output is comprehensive, engaging, and tailored to the specifi
 
           <HowItWorks />
           <Features />
+          <AboutMe />
         </main>
         
         <Footer />
