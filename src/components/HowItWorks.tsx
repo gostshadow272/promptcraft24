@@ -1,8 +1,8 @@
-import { Input, Wand2, Sparkles } from "lucide-react";
+import { Type, Wand2, Sparkles } from "lucide-react";
 
 const steps = [
   {
-    icon: Input,
+    icon: Type,
     title: "Input Context",
     description: "Describe your task or need",
   },
